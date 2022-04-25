@@ -1,0 +1,11 @@
+.card {
+
+  margin: 50px auto;
+  margin-left: 50px;
+  width: 250px;
+  height: 400px;
+  float: left;
+  align-content: center;
+  text-align: center;
+
+}

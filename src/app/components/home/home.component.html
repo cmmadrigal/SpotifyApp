@@ -1,0 +1,19 @@
+<!--
+  PARA MOSTRAR EN EL HTML LA INFORMACION DE LOS PAISES QUE NOS HEMOS
+  TRAIDO DEL POSTMAN
+
+  <ul>
+  <li *ngFor="let pais of paises">
+    {{pais.name.common}} - {{pais.name.official}} . Poblacion: {{pais.population | number}}
+  </li>
+</ul> -->
+
+<div *ngIf="error" class="alert alert-danger animated fadeIn">
+  <h3>Error</h3>
+  <p>
+      {{ errorMessage }}
+  </p>
+</div>
+
+
+<app-tarjetas [items]="nuevasCanciones"></app-tarjetas>
